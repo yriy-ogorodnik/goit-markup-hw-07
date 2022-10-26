@@ -4,8 +4,8 @@
    align-items: center;
    gap: 10px;
    margin-bottom: 30px;
- }
- .social-link {
+}
+.social-link {
    display: flex;
    width: 44px;
    height: 44px;
@@ -14,16 +14,17 @@
    color: #afb1b8;
    border-radius: 50%;
    cursor: pointer;
- 
+
    transition-property: color, background-color;
    transition-duration: 250ms, 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- }
- .social-link:hover,
- .social-link:active {
-   background-color: var(--accent-color);
-   color: #ffffff;
- }
- .social-icon {
+
+   &:hover,
+   &:active {
+      background-color: var(--accent-color);
+      color: #ffffff;
+   }
+}
+.social-icon {
    fill: currentColor;
- }
+}

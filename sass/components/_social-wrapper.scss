@@ -1,11 +1,11 @@
-.social-wrapper {
+.social__wrapper {
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 10px;
    margin-bottom: 30px;
 }
-.social-link {
+.social__link {
    display: flex;
    width: 44px;
    height: 44px;
@@ -20,11 +20,12 @@
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
    &:hover,
+   &:focus,
    &:active {
       background-color: var(--accent-color);
       color: #ffffff;
    }
 }
-.social-icon {
+.social__icon {
    fill: currentColor;
 }

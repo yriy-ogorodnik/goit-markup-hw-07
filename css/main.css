@@ -330,28 +330,28 @@ ul li {
   color: var(--secondary-text-color);
 }
 
-.make-title {
+.make__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 
-.make-items {
+.make__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.make-items .item:not(:last-child) {
+.make__item-backdown:not(:last-child) {
   margin-right: 30px;
 }
 
-.make-item {
+.make__item {
   position: relative;
 }
 
-.make-item > .label {
+.make__label {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -377,36 +377,36 @@ ul li {
   background-color: #f5f4fa;
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
 
-.team-cards {
+.cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.team-cards .item:not(:last-child) {
+.card__item-backdown:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-card {
+.card__item {
   background: #ffffff;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-card-content {
+.card__content {
   margin-top: 30px;
   margin-bottom: 16px;
 }
 
-.team-card-title {
+.card__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -414,14 +414,14 @@ ul li {
   text-align: center;
 }
 
-.team-card-text {
+.card__text {
   font-size: 16px;
   line-height: 1.18;
   color: var(--secondary-text-color);
   text-align: center;
 }
 
-.social-wrapper {
+.social__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -435,7 +435,7 @@ ul li {
   margin-bottom: 30px;
 }
 
-.social-link {
+.social__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,12 +457,12 @@ ul li {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover, .social-link:active {
+.social__link:hover, .social__link:focus, .social__link:active {
   background-color: var(--accent-color);
   color: #ffffff;
 }
 
-.social-icon {
+.social__icon {
   fill: currentColor;
 }
 
